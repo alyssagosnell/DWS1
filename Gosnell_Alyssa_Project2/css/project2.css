@@ -1,0 +1,136 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+	background-color: #252525;
+}
+
+#Content p {
+	text-indent: 10px;
+	text-align: center;
+	text-align: justify;
+	padding: 10px 30px;
+}
+
+#Page {
+	background-color: #F5E8DB;
+	color: #E66053;
+	width: 1000px;
+	margin: 0 auto;
+	border: 5px solid #EC9387;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	background-color: #D1C6BB;
+	text-shadow: 2px 2px #000;
+	text-align: center;
+	padding: 10px;
+	width: 150px;
+	border-top: 8px solid #575752;
+  	border-right: 6px solid #EC9387;
+  	border-bottom: 8px solid #575752;
+ 	border-left: 6px solid #EC9387;
+ 	margin: 10px auto;
+ 	box-shadow: 5px 5px 10px 5px #808080;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	background-color: #D1C6BB;
+	text-shadow: 2px 1px #000;
+	padding: 10px;
+	width: 150px;
+	border-top: 8px solid #575752;
+  	border-right: 6px solid #EC9387;
+  	border-bottom: 8px solid #575752;
+ 	border-left: 6px solid #EC9387;
+ 	margin: 10px auto;
+ 	text-align: center;
+ 	box-shadow: 5px 5px 10px 5px #808080;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 1px 1px #000;
+	background-color: #D1C6BB;
+	padding: 10px;
+	width: 150px;
+	border-top: 8px solid #575752;
+  	border-right: 6px solid #EC9387;
+  	border-bottom: 8px solid #575752;
+ 	border-left: 6px solid #EC9387;
+ 	margin: 10px auto;
+ 	text-align: center;
+ 	box-shadow: 5px 5px 10px 5px #808080;
+}
+
+ul {
+background-color: #D1C6BB;
+  margin: 30px auto;
+  list-style: none;
+  border-top: 8px solid #575752;
+  border-right: 6px solid #EC9387;
+  border-bottom: 8px solid #575752;
+  border-left: 6px solid #EC9387;
+  padding: 5px;
+  width: 800px;
+  text-align: center;
+  box-shadow: 5px 5px 10px 5px #808080;
+  }
+  
+ nav ul li {
+  background-color: #EC9387;
+  border: 2px solid #575752;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+  width: 85px;
+  text-align: center
+}
+
+a:link {
+	color: #398E72;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7D509D;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFF;
+	background-color: #252525;
+}
+
+ol  p {
+	text-align: center;
+}
+
+ol li {
+	padding: 10px;
+	list-style: inside lower-roman;
+}
+
+#supply {
+	list-style: inside circle;
+}
+
+strong {
+	color: #000;
+}
+
+em {
+	color: #FF9900;
+}
+
+img {
+	border: 2px solid #575752;
+}
+
+footer {
+	text-indent: 50px;
+}
