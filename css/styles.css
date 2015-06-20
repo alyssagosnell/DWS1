@@ -1,0 +1,19 @@
+body { 
+	font-family: Arial;
+}
+
+#introduction { 
+	color: mediumseagreen;
+}
+
+.note {
+	text-transform: uppercase;
+}
+
+#colorlinks, a {
+	color: red;
+}
+
+ul {
+	list-style: lower-roman;
+	}

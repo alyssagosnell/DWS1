@@ -1,0 +1,10 @@
+h1 {
+	background: url("../images/paint.png") no-repeat;
+	text-align: center;
+	width: 128px;
+	height: 128px;
+}
+
+body {
+	background: url("../images/white.png");
+}
