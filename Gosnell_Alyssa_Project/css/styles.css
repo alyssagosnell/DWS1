@@ -2,103 +2,46 @@ body {
 	font-family: 'Raleway', sans-serif;
 	line-height: 25px;
 	background-color: #252525;
-	background: url("../images/pencil.png") repeat;
-}
-
-#Content p {
-	text-indent: 10px;
-	text-align: center;
-	text-align: justify;
-	padding: 10px 30px;
-	width: 90%;	
+	background: url("../images/bgpicture.gif");
 }
 
 #Page {
-	background-color: #F5E8DB;
 	color: #E66053;
 	width: 1000px;
 	margin: 0 auto;
-	border: 5px solid #575752;
-	background: url("../images/bgpink.gif");
+	border: 5px solid #B196C4;
+	background: linear-gradient(to bottom, #d8d8d8 0%,#c9c9c9 50%,#d1d1d1 51%,#595959 100%); /* W3C */
 }
 
-/**** Drawing H1 *****/
-h1 {
+/**** Drawing #heading *****/
+#heading {
 	font-family: 'Raleway', sans-serif;
-	background-color: #D1C6BB;
+	font-size: 3em;
 	text-shadow: 2px 2px #000;
 	text-align: center;
 	padding: 10px;
-	width: 15%;
-	border-top: 8px solid #575752;
-  	border-right: 6px solid #CC99FF;
-  	border-bottom: 8px solid #575752;
- 	border-left: 6px solid #CC99FF;
- 	margin: 10px auto;
- 	box-shadow: 5px 5px 10px 5px #000;
-	background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
-}
-
-/**** Second Headers ****/
-h2 {
-	font-family: 'Raleway', sans-serif;
-	background-color: #D1C6BB;
-	text-shadow: 2px 1px #000;
-	padding: 10px;
-	width: 150px;
-	border-top: 8px solid #575752;
-  	border-right: 6px solid #CC99FF;
-  	border-bottom: 8px solid #575752;
- 	border-left: 6px solid #CC99FF;
- 	margin: 10px auto;
- 	text-align: center;
- 	box-shadow: 5px 5px 10px 5px #000;
-	background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
-}
-
-/******* Notable ******/
-h3 {
-	font-family: 'Raleway', sans-serif;
-	text-shadow: 1px 1px #000;
-	background-color: #D1C6BB;
-	padding: 10px;
-	width: 150px;
-	border-top: 8px solid #575752;
-  	border-right: 6px solid #CC99FF;
-  	border-bottom: 8px solid #575752;
- 	border-left: 6px solid #CC99FF;
- 	margin: 10px auto;
- 	text-align: center;
- 	box-shadow: 5px 5px 10px 5px #000;
-	background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
+	width: 70%;
+ 	margin: 4%  auto;
 }
 
 /**** Nav ****/
-ul {
-	background-color: #D1C6BB;
+nav ul {
 	margin: 30px auto;
 	list-style: none;
-	border-top: 8px solid #575752;
-	border-right: 6px solid #CC99FF;
-	border-bottom: 8px solid #575752;
-	border-left: 6px solid #CC99FF;
+	border-top: 1px solid #000;
+	border-bottom: 3px solid #000;
 	padding: 5px;
 	width: 800px;
 	text-align: center;
-	box-shadow: 5px 5px 10px 5px #000;
-	background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
-  }
+ }
   
  nav ul li {
-	background: linear-gradient(135deg, #fffcfc 0%,#f1efff 100%); /* W3C */
-	background-color: #EC9387;
-	border: 2px solid #575752;
-	border-radius: 2px;
 	display: inline-block;
 	padding: 5px;
-	margin: 20px;
+	margin: 10px;
 	width: 85px;
 	text-align: center
+	color: #398E72;
 }
 
 /*******Links*****/ 
@@ -116,11 +59,65 @@ a:hover {
 }
 
 a:active {
-	color: #FFF;
-	background-color: #252525;
+	color: #E66053;
+	background-color: #fff;
 }
 
-/*** lists ****/
+/**** Content ****/
+#Content p {
+	text-indent: 10px;
+	text-align: center;
+	text-align: justify;
+	padding: 10px 30px;
+	width: 90%;	
+}
+
+/**** Second Headers ****/
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 1px #000;
+	padding: 5px;
+	width: 40%;
+	border-top: 1px solid #000;
+  	border-bottom: 3px solid #000;
+ 	margin: 1.25% auto;
+ 	text-align: center;
+}
+
+/**** heading 3 ****/
+h3 {
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 1px 1px #000;
+	padding: 10px;
+	width: 45%;
+	border-top: 1px solid#000;
+  	border-bottom: 3px solid #000;
+ 	margin: 1.25% auto;
+ 	text-align: center;
+}
+
+/**** Overview ****/
+#Overview {
+	float: left;
+	width: 40%;
+	margin: 1.25%;
+}
+
+/**** History ****/
+#History {
+	float: right;
+	width: 40%;
+	margin: 1.25% 3%;
+}
+
+/******* Notable ******/
+#Draftsmen {
+	float: left;
+	width: 450px;
+	margin: 10px;
+}
+
+/*** Notable Ordered Lists ****/
 ol  p {
 	text-align: center;
 }
@@ -130,8 +127,50 @@ ol li {
 	list-style: inside lower-roman;
 }
 
-#supply {
-	list-style: inside circle;
+/**** TECHNIQUES ****/
+#Techniques  {
+	float: right;
+	width: 40%;
+	margin: 1.25% 3%;
+}
+
+/**** More Artists ****/
+#artists {
+	background: #252525;
+	border-radius: 25px;
+	float:left;
+	width: 35%;
+	margin: 1.25% 5.5%;
+	clear: left;
+	display: inline-block;
+}
+
+#artists ul {
+	margin: 1.25% auto;
+	width: 50%;
+}
+
+/**** Supplies ****/
+
+table {
+	width: 20%;
+}
+
+th, td {
+	background: #252525;
+	padding: 1.25%;
+}
+
+#top-theadings th {
+	text-align: right;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	text-align: right;
 }
 
 strong {
@@ -139,11 +178,17 @@ strong {
 }
 
 em {
-	color: #FF9900;
+	color: #E66053;
 }
 
 img {
+	margin: 1.25% 3% 1.25% 8%;
+	float: left;
 	border: 2px solid #575752;
+}
+
+img:hover {
+	border: 2px solid red;
 }
 
 footer {
@@ -151,28 +196,55 @@ footer {
 	clear: left;
 }
 
-#Overview {
+#Gallery {
 	float: left;
-	width: 450px;
-	margin: 10px
+	width: 94%;
+	margin: 1.25% 3%;
 }
 
-#History {
-	float: right;
-	width: 450px;
-	margin: 10px;
+#form {
+	width: 30%;
+	margin: 1.25% auto;
+	clear:both;
 }
 
-#Draftsmen {
+#form p {
+	width: 100%;
+	text-align: center;
+}
+
+#form textarea {
+	width: 95%;
+	margin: 0 auto;
+}
+	
+figure {
+	width: 32%;
+	margin: 10px 0;
 	float: left;
-	width: 450px;
-	margin: 10px;
+	height: 300px;
 }
 
-#Techniques  {
-	float: right;
-	width: 450px;
-	margin:10px;
+figcaption {
+	text-align:center;
+	width: 90%;
+	margin: 1.25% auto;
+	clear: both;
+	
+}
+	
+#photos {
+	width: 100%;
+	margin: 10px 0;
 }
 
-/*****This gallery thing I couldn't figure out*****/ 
+#Art {	
+float: right;
+width: 300px;
+margin:10px;
+}
+
+.center {
+	margin-right: 2%;
+	margin-left: 2%;
+}
